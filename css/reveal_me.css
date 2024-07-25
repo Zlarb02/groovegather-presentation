@@ -1,0 +1,12 @@
+#avatar{
+    border-radius:25%;
+    border: 2px solid #eee;
+    margin-top:-50px;
+    height: 25%;
+    width: 25%;
+}
+
+.reveal li{
+    margin-top:15px;
+    font-size:85%;
+}

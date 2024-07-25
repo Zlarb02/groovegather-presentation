@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Présentation du projet Groove Gather</title>
+
+	<meta name="description" content="Présentation GG">
+	<meta name="author" content="Rémi LABONNE">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/reveal_me.css">
+	<link rel="stylesheet" href="css/theme/league.css" id="theme">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<!-- 	<link rel="stylesheet" href="lib/css/zenburn.css"> -->
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+
+	<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+
+	<div class="reveal">
+
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+			<section>
+				<section>
+
+					<h1> GrooveGather </h1>
+					<small> présenté par </small>
+					<div class="profile-container"
+						style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap : 4vw">
+
+
+						<a href="https://stanislascomputerscience.github.io/Portfolio/">Rémi LABONNNE</a>
+
+						<small> & </small>
+						<a href="https://pogodev.com/">Etienne POGODA</a>
+
+					</div>
+					<img src="./ggsteam.png" class="largeImg"
+						style="max-height: 20vw; height: 40vw; width: auto; border-radius: 80px; background-color: transparent;"
+						alt="Photo de la gg's team" />
+				</section>
+
+
+
+			</section>
+
+
+			</section>
+			<section>
+
+				<section>
+					<h2>Génèse du projet</h2>
+					<br>
+					<br>
+					<div> Lors d'un réunion (à trois !) </div>
+					<div>où nous devions définir le projet </div>
+
+
+				</section>
+				<section>
+
+					<p> L'idée s'est imposée à nous :) !</p>
+					<img src="./ggsteamoriginal_720.png" class="largeImg"
+						style="max-height: 20vw; height: 40vw; width: auto; border-radius: 80px; background-color: transparent;"
+						alt="Photo de la gg's team" />
+				</section>
+
+				<section>
+					<h2> Nous avons décider de réaliser :</h2>
+					<div class="fragment">
+
+						<p class="fragment">Un site de collaboration sur des projets musicaux </p>
+
+
+						<p class=" fragment"> <span class=" fragment"> Qui permet de partager : </span></p>
+						<p class=" fragment"> <span class=" fragment"> - des pistes musicales</span> </p>
+						</p>
+						<p class=" fragment"> <span class=" fragment">- des partitions </span> </p>
+						<p class=" fragment"> <span class=" fragment">- des paroles </span> </p>
+						<p class=" fragment"> - des compétence musicales</p>
+					</div>
+				</section>
+			</section>
+
+
+			<section>
+				<section>
+
+
+					<h2> Technologie et outils utiliées </h2>
+					<p class=" fragment"> <span class=" fragment">- des paroles </span> </p>
+					<p class=" fragment"> <span class=" fragment">- des paroles2 </span> </p>
+
+				</section>
+
+			</section>
+			<section>
+				<section data-transition="concave">
+					<h2> Exemple d'utilisation </h2>
+					<p> création d'un projet musical</p>
+				</section>
+
+				<section data-transition="concave">
+					<h3>Front end</h3>
+					<p>Html</p>
+					<p>CSS</p>
+					<p>TypeScript</p>
+					<p>Angular</p>
+
+					<h3>BackEnd</h3>
+					<p>MySQL</p>
+
+
+					&nbsp
+
+
+		</div>
+
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+
+		// More info https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+			mouseWheel: true,
+
+			transition: 'convex', // none/fade/slide/convex/concave/zoom
+
+			// More info https://github.com/hakimel/reveal.js#dependencies
+			dependencies: [
+				{ src: 'lib/js/classList.js', condition: function () { return !document.body.classList; } },
+				{ src: 'plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+				{ src: 'plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+				{ src: 'plugin/zoom-js/zoom.js', async: true },
+				{ src: 'plugin/notes/notes.js', async: true }
+			]
+		});
+
+	</script>
+
+</body>
+
+</html>
